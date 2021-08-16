@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    #show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/mercado_livro?createDatabaseIfNotExist=true
+    username: root
+    password: 88058821
+  jackson:
+    default-property-inclusion: non_null
+
+jwt:
+  secret: c2c74c70-1f27-4c63-af0d-0e8d23ba9abf
+  expiration: 999999
